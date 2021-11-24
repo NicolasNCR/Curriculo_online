@@ -6,6 +6,7 @@
 .text-center-titulo{
 	text-align: center;
 	font-family: 'Permanent Marker', cursive;
+	padding: 3%;
 }
 
 .menu_text{
@@ -18,4 +19,8 @@
 .logo{
 	padding: 0%;
 	padding-top: 20%;
+}
+
+.bgsobre{
+	background-color: #0D1026; 
 }
