@@ -83,7 +83,8 @@ h5{
 }
 
 .logo{
-	width: 54%;
+	max-width: 500px;
+	max-height: 200px;
 }
 
 
