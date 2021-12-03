@@ -17,18 +17,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Homenaje&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/logo_e_favicon/favicon_oficial.svg"/>
 
     <title>Currículo Online</title>
   </head>
   <body>
 
     <!-- Menu -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img class="logo" src="img/logo_e_favicon/logo_final.svg" alt="" width="100" height="100" class="d-inline-block align-text-top">
+            <img class="logo" src="img/logo_e_favicon/logo_oficial.svg" alt="" width="100" height="100" class="d-inline-block align-text-top">
           </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
@@ -37,19 +50,19 @@
               <a class="nav-link active menu_text" aria-current="page" href="index.html">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu_text" href="Sobre">Sobre</a>
+              <a class="nav-link menu_text" href="index.html#Sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu_text" href="#">Habilidades</a>
+              <a class="nav-link menu_text" href="index.html#Habilidades">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu_text" href="#">Competências</a>
+              <a class="nav-link menu_text" href="index.html#Competências">Competências</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu_text" href="#">Experiências</a>
+              <a class="nav-link menu_text" href="index.html#Experiências">Experiências</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu_text" href="#">Contato</a>
+              <a class="nav-link menu_text" href="index.html#Contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -70,21 +83,21 @@
             <img src="img/carrossel/welcome.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Seja Bem-Vindo!</h5>
-              <p>Venha conhecer o meu currículo on-line!</p>
+              <p class="carrossel_text">Venha conhecer o meu currículo on-line!</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/carrossel/teamwork.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Competências Socioemocionais</h5>
-              <p>Conheça minhas competências socioemocionais!</p>
+              <p class="carrossel_text">Conheça minhas competências socioemocionais!</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/carrossel/programing.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Projetos</h5>
-              <p>Venha conhecer os meus projetos que foram desenvolvidos ao longo do ano!</p>
+              <p class="carrossel_text">Venha conhecer os meus projetos que foram desenvolvidos ao longo do ano!</p>
             </div>
           </div>
         </div>
@@ -97,7 +110,10 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <div class="bgsobre">
+     
+      
+      <!-- Sobre -->
+    <div class="bg-sobre">
       <div class="container">
         <section id="Sobre">
           <div class="row">
@@ -105,10 +121,14 @@
             <div class="container">
               <div class="row"> 
                 <div class="col-md-4">
-                  Foto
+                  <img src="img/foto_sobre/foto_perfil_recorte .jpg" class="img-sobre">
                 </div>
-                <div class="col-md-8">
-                  Texto
+                <div class="col-md-8 space_final space-sobre">
+                  <p class="text-white text-sobre">Meu nome é Nicolas Costa Ribeiro, tenho 15 anos. Estudo na Etec MCM, fazendo o Ensino Médio juntamente com o curso técnico de Informática para a Internet. Eu estou gostando muito do curso, estou aprendendo sobre programação de algoritmos, programação de sites, photoshop, banco de dados, WordPress, etc.</p>
+
+                  <p class="text-white text-sobre">Sempre tive um certo interesse em programação, porém foi em 2020, quando comecei a fazer um curso de desenvolvimento de games, que esse interesse foi realmente despertado em mim. Foi nesse mesmo ano também, que eu percebi que a programação seria o futuro e seria algo que iria ser utilizado em tudo, se tornado algo essencial. Quando percebi isso tudo, a única coisa que se passava em minha mente era que não podia ficar fora desse futuro. Então uni o útil ao agradável, ou seja, uni meu grande interesse em TI, com o fato de ser o novo futuro e também, pelo fato de ser uma área em que sempre terá vagas no mercado de trabalho.</p>
+
+                  <p class="text-white text-sobre">Ainda não tenho total certeza ainda sobre em qual campo desta área irei trabalhar, mas provavelmente será com o back-end. Pretendo obter o máximo de experiência durante esse três anos de curso, para que no final, eu já tenha certeza de qual campo desta área eu irei.</p>
                 </div>
               </div>
             </div>
@@ -117,94 +137,264 @@
       </div>
     </div>
 
-    <div class="container">
-      <section id="Habilidades">
-        <div class="row">
-          <h1 class="text-center-titulo">Habilidades</h1>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            Foto
+    <!-- Habilidades -->
+    <div class="bg-habilidades">
+      <div class="container">
+        <section id="Habilidades">
+          <div class="row">
+            <h1 class="text-center-titulo text-white">Habilidades</h1>
           </div>
 
-          <div class="col-md-8">
-            Texto
+          <div class="row">
+            <p class="text-center space_text">A respeito de minhas habilidades, posso destacar: </p>
           </div>
 
-        </div>
-      </section>
+          <div class="row space_final">
+            <div class="col-md-4">
+              <img src="img/habilidades/desenvolvimento_games.png" class="icon-general icons">
+              <h5 class="text-center">Desenvolvimento de Games</h5>
+              <p class="text-center space_end">Após realizar um curso de programação de games 2D, aprendi a manusear programas como Construct2 e RPG Maker MV.</p>
+            </div>
+
+            <div class="col-md-4">
+              <img src="img/habilidades/lingua_inglesa.png" class="icon-general icons">
+              <h5 class="text-center">Língua Inglesa</h5>
+              <p class="text-center space_end">Desde mais novo, venho realizando um curso de inglês. Atualmente, apresento um nível intermediário em inglês e acredito que em mais alguns anos serei fluente neste idioma.</p>
+            </div>
+
+            <div class="col-md-4">
+              <img src="img/habilidades/dev_web.png" class="icon-general icons">
+              <h5 class="text-center">Desenvolvimento WEB</h5>
+              <p class="text-center space_end">Ao longo deste ano, aprendi a manusear, por meio do curso técnico de Informática para a Internet na Etec MCM, as linguagens: Html, Css e estou aprendendo JavaScript.</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 
-    <div class="container">
-      <section id="Competências">
-        <div class="row">
-          <h1 class="text-center-titulo">Competências</h1>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            Foto
+    <!-- Competências -->
+    <div class="bg-competencias">
+      <div class="container">
+        <section id="Competências">
+          <div class="row">
+            <h1 class="text-center-titulo text-white">Competências</h1>
           </div>
 
-          <div class="col-md-8">
-            Texto
+          <div class="row">
+            <p class="text-center galeria_end">A respeito de minhas competências socioemocionais, posso destacar:</p>
           </div>
 
-        </div>
-      </section>
+          <div class="row space_final">
+            <div class="col-md-4">
+              <img src="img/competencias/autogestao.png" class="icon-general icons">
+              <h5 class="text-center">Autogestão</h5>
+              <p class="text-center space_end">Planejo muito bem todas minhas metas e objetivos, a fim de conseguir me organizar melhor e realizar as melhores escolhas possíveis em relação ao meu futuro profissional, social e pessoal. </p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="img/competencias/autonomia.png" class="icon-general icons">
+                <h5 class="text-center">Autonomia</h5>
+                <p class="text-center space_end">Sempre busco agir com muita autonomia, responsabilidade e muita determinação, a fim de tomar decisões seguindo princípios éticos, demográticos, inclusivos, sustentáveis e solidários.</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="img/competencias/metacognição.png" class="icon-general icons">
+                <h5 class="text-center">Metacognição</h5>
+                <p class="text-center space_end">Determino muito bem minhas metas e estratégias pessoais, com base no meu reconhecimento de minhas próprias habilidades, atitudes, valores, conhecimento e aprendizagem, a fim de obter uma melhor organização, responsabilidade, e melhores resultados.</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 
-    <div class="container">
-      <section id="Experiência">
-        <div class="row">
-          <h1 class="text-center-titulo">Experiências</h1>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            Foto
+    <!-- Experiências -->
+    <div class="bg-experiencias">
+      <div class="container">
+        <section id="Experiências">
+          <div class="row">
+            <h1 class="text-center-titulo text-white">Experiências</h1>
           </div>
 
-          <div class="col-md-8">
-            Texto
+          <div class="row space_text text-center">
+            <p>Ao longo deste ano, adiquiri diversas experiências com o curso técnico de Informática para a Internet, que realizo na ETEC MCM, e também com cursos que realizo fora da escola. Realizamos projetos com diversos programas, como PhotoShop, Inkscape, WordPress, MySQL, entre outros. Já nas linguagens trabalhadas, nós realizamos projetos com Html, CSS, JavaScript.</p>
+            <p>Fora da escola, realizei projetos utilizando o programa RPG Maker MV, onde estudei programação de games:</p>
+            <p>(Obs: clique em cima das imagens, caso queira vê-las com uma melhor qualidade.)</p>
           </div>
 
-        </div>
-      </section>
-    </div> 
+          <div class="row">
+            <div class="col-md-4">
+              <a href="img/experiencias/rpg_maker_mv.jpg" target="_blank">
+              <img src="img/experiencias/rpg_maker_mv.jpg" class="galeria-img">
+              </a>
+              <h5 class="text-center text-galeria">RPG Maker MV</h5>
+            </div>
 
-    <div class="container">
-      <section id="Contato">
-        <div class="row">
-          <h1 class="text-center-titulo">Contato</h1>
-        </div>
+            <div class="col-md-4">
+              <a href="img/experiencias/rpg_exemplo2.jpg" target="_blank">
+              <img src="img/experiencias/rpg_exemplo2.jpg" class="galeria-img">
+              </a>
+              <h5 class="text-center text-galeria">Criação de Cenário</h5>
+            </div>
 
-        <div class="row">
-          <div class="col-md-4">
-            Foto
+            <div class="col-md-4">
+              <a href="img/experiencias/rpg_exemplo1.jpg" target="_blank">
+              <img src="img/experiencias/rpg_exemplo1.jpg" class="galeria-img">
+              </a>
+              <h5 class="text-center text-galeria">Criação de Cenário</h5>
+            </div>
+          </div>
+          
+          <div class="row galeria_end">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-4">
+              <a href="img/experiencias/rpg_combate1.jpg" target="_blank">
+              <img src="img/experiencias/rpg_combate1.jpg" class="galeria-img">
+              </a>
+              <h5 class="text-center text-galeria">Batalha com o BOSS</h5>
+            </div>
+
+            <div class="col-md-4">
+              <a href="img/experiencias/rpg_dialogo.jpg" target="_blank">
+              <img src="img/experiencias/rpg_dialogo.jpg" class="galeria-img">
+              </a>
+              <h5 class="text-center text-galeria">Diálogo com NPC</h5>
+            </div>
+
+            <div class="col-md-2">
+            </div>
           </div>
 
-          <div class="col-md-8">
-            Texto
+          <div class="row text-center">
+            <p class="">E, recentemente, tive uma experiência muito marcante na escrita de redações dissertativas argumentativas, e que fiquei em 3° lugar de minha categoria (Categoria II) na Redação do Diário do Grande ABC, sendo eleita a melhor de minha cidade (Ribeirão Pires) nesta mesma categoria.</p>
           </div>
 
-        </div>
-      </section>
+          <div class="row space_text text-center space_final">
+            <p class="">Clique no botão para acessar meu perfil no Github e conheça todos os meus projetos!</p>
+            <div class="col-md-4 subscribe-btn-container">
+              <a class="subscribe-btn" target="_blank" href="https://github.com/NicolasNCR">CLIQUE AQUI</a>
+            </div>
+          </div>
+        </section>
+      </div> 
     </div>
 
-    <br>
+    <!-- Hobbies -->
+    <div class="bg-hobbies">
+      <div class="container">
+        <section id="Hobbies">
+          <div class="row">
+            <h1 class="text-center-titulo text-white">Hobbies</h1>
+          </div>
 
+          <div class="row space_text text-center">
+            <p>Tenho diversos hobbies, porém os que eu mais gosto de fazer em meu tempo livre são: assistir filmes, séries e animes, jogar videogame, montar o cubo mágico, entre outros.</p>
+            <h5>Filmes e séries que me marcaram:</h5>
+          </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+          <div class="row galeria_end">
+            <div class="col-md-4">
+              <img src="img/hobbies/filmes_e_series/item_1.jpg" class="galeria-img">
+              <h5 class="text-center text-galeria">De Volta para o Futuro</h5>
+            </div>
+
+            <div class="col-md-4">
+              <img src="img/hobbies/filmes_e_series/item_2.jpg" class="galeria-img">
+              <h5 class="text-center text-galeria">The Flash</h5>
+            </div>
+
+            <div class="col-md-4">
+              <img src="img/hobbies/filmes_e_series/item_3.jpg" class="galeria-img">
+              <h5 class="text-center text-galeria">Arrow</h5>
+            </div>
+          </div>
+
+          <div class="row space_text text-center">
+            <h5>Animes que me marcaram:</h5>
+          </div>
+
+          <div class="row space-hobbies">
+            <div class="col-md-4">
+              <img src="img/hobbies/animes/item_1.jpg" class="galeria-img">
+              <h5 class="text-center text-galeria">Naruto</h5>
+            </div>
+
+            <div class="col-md-4">
+              <img src="img/hobbies/animes/item_2.jpg" class="galeria-img">
+              <h5 class="text-center text-galeria">Fullmetal Alchemist: Brotherhood</h5>
+            </div>
+
+            <div class="col-md-4">
+              <img src="img/hobbies/animes/item_3.jpg" class="galeria-img">
+              <h5 class="text-center text-galeria">Shingeki no Kyojin</h5>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Contato -->
+    <div class="bg-contato">
+      <div class="container">
+        <section id="Contato">
+          <div class="row">
+            <h1 class="text-center-titulo text-white">Contato</h1>
+          </div>
+
+          <div class="row space_text text-center">
+            <p class="space_text">Entre em contato comigo pelas redes sociais a seguir:</p>
+            <p class="space_text text-contato">Clique nos ícones para acessar um atalho e entar em contato mais facilmente!</p>
+          </div>
+
+          <div class="row space_final">
+            <div class="col-md-4">
+              <a href="mailto:nicolascostaribeiro21@gmail.com" target="_blank">
+              <img src="img/redes_sociais/gmail.png" class="icon-general">
+              </a>
+              <h5 class="text-center">E-mail</h5>
+              <h6 class="text-white text-center space_end">nicolascostaribeiro21@gmail.com</h6>
+            </div>
+
+            <div class="col-md-4">
+              <a href="tel:(11)971569010" target="_blank">
+              <img src="img/redes_sociais/whatsapp.png" class="icon-general">
+              </a>
+              <h5 class="text-center">WhatsApp</h5>
+              <h6 class="text-white text-center space_end">+55 (11) 97156-9010</h6>
+            </div>
+            
+            <div class="col-md-4">
+              <a href="https://github.com/NicolasNCR" target="_blank">
+              <img src="img/redes_sociais/github1.png" class="icon-general">
+              </a>
+              <h5 class="text-center">Github</h5>
+              <h6 class="text-white text-center space_end">NicolasNCR</h6>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p class="text-center text-footer">Site desenvolvido por Nicolas Costa Ribeiro</p>
+        <p class="text-center copyright-footer">Ícones utilizados no site: <a href="https://www.flaticon.com" target="_blank">https://www.flaticon.com</a></p>
+
+        <ul class="socials">
+          <li><a href="https://www.facebook.com/profile.php?id=100006860687797" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://github.com/NicolasNCR" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="mailto:nicolascostaribeiro21@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="tel:(11)971569010" target="_blank"><i class="fa fa-phone"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2021 NicolasNCR.</p>
+      </div>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>

@@ -1,12 +1,78 @@
-.navbar{
-    background-color: #1C1C1C;
-	
+/* Main-settings */
+
+body{
+	font-family: 'Roboto', sans-serif;
 }
 
-.text-center-titulo{
-	text-align: center;
-	font-family: 'Permanent Marker', cursive;
-	padding: 3%;
+p{
+	font-size: 105%;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+h5{
+	color: white;
+}
+
+.space_text{
+	padding-bottom: 2%;
+}
+
+.space_end{
+	padding-bottom: 8%;
+}
+
+.icon-general{
+	width: 20%;
+	display: block	;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 7%;
+}
+
+#Sobre, #Habilidades, #Competências, #Experiências, #Hobbies, #Contato {
+	padding: 135px 0;
+}
+
+.space_final{
+	margin-bottom: -125px;	
+}
+
+
+/* Animation-settings */
+
+.animation-icon{
+	width: 20%;
+	transition: width 2s, transform 2s;
+}
+
+@keyframes example{
+    0% {
+        transform: scale(1.0);
+    }
+
+    60%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+.icons:hover{
+	width:20%;
+	animation-name: example;
+    animation-duration: 1.5s;
+}
+  
+
+/* Menu-settings */
+
+.navbar{
+    background-color: #1C1C1C;
+	height: 15%;
+	margin-bottom: -50px;
 }
 
 .menu_text{
@@ -17,10 +83,222 @@
 }
 
 .logo{
-	padding: 0%;
-	padding-top: 20%;
+	width: 54%;
 }
 
-.bgsobre{
+
+/* Carrossel-settings */
+
+.carrossel_text{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.text-center-titulo{
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	margin-top: -10px;
+	padding-bottom: 2%;
+}
+
+
+/* Sobre-settings */
+
+
+.bg-sobre{
 	background-color: #0D1026; 
+}
+
+.text-sobre{
+	font-family: 'Merienda', cursive;
+}
+
+.img-sobre{
+	width: 90%;
+	border-radius: 200%;
+	margin-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.space-sobre{
+	margin-top: 30px;
+}
+
+
+/* Habilidades-settings */
+
+.bg-habilidades{
+	background-color: #012840;
+}
+
+
+/* Competências-settings */
+
+.bg-competencias{
+	background-color: #024959;
+}
+
+
+/* Experiências-settings */
+
+.bg-experiencias{
+	background-color: #012840;
+
+}
+
+.galeria-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 10%;
+	border-radius: 18%;
+}
+
+.text-galeria{
+	margin-top: -5%;
+}
+
+.galeria_end{
+	padding-bottom: 35px;
+}
+
+.subscribe-btn-container{
+	text-align: center;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subscribe-btn{
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 20px;
+	border-radius: 2px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+.subscribe-btn:hover{
+	background: #009ACD;
+	border: 2px solid #009ACD;
+	color: white;
+}
+
+
+/* Hobbies-settings */
+
+.bg-hobbies{
+	background-color: #023059;
+}
+
+.space-hobbies{
+	margin-bottom: -50px;
+}
+
+
+/* Contato-settings */
+
+.bg-contato{ 
+	background-color: #0D1026;
+	/* background-image: url("../img/bg-azul1.jpg"); */
+	/* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.text-contato{
+	margin-top: -2%;
+}
+
+
+/* Footer-settings */
+
+footer{
+	background-color: #1C1C1C;
+	height: auto;
+	width: auto;
+	padding-top: 5px;
+}
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+/* .footer-content h3{
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+} */
+
+.footer-content p{
+	max-width: 500px;
+	line-height: 28px;
+	font-size: 110%;
+}
+
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+
+.socials li{
+	margin: 0 10px;
+}
+
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.socials a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+
+.socials a:hover i{
+	color: aqua;
+}
+
+.footer-bottom{
+	background: #000;
+	width: auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
+.text-footer{
+	margin-top: 2%;
+}
+
+.copyright-footer{
+	margin-top: -10px;
 }
